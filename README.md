@@ -9,10 +9,15 @@ docker-compose up --build -d
 
 ## Server
 
-To start *server* run:
-```
-docker-compose exec golang go run main.go
-```
+To start:
+* Enter inside `golang` container:
+	```bash
+	docker-compose exec golang bash
+	```
+* Build and run serve
+	```go
+	go build && ./app
+	```
 
 The server will be allocate on `http://localhost/api/books`
 
