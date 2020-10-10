@@ -34,7 +34,7 @@ You can use:
 {
 	"isbn": "432432",
 	"title": "Andorinha",
-	"Author": {
+	"author": {
 		"firstname": "Carol",
 		"lastname": "Williams"
 	}
